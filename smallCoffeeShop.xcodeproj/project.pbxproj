@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		280514BA1D6CF14B0080431B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280514B91D6CF14B0080431B /* main.m */; };
 		280514C21D6CF2440080431B /* EspressoMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 280514C11D6CF2440080431B /* EspressoMachine.m */; };
+		28D2E7531D6D3C83008C6AB0 /* Barista.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D2E7521D6D3C83008C6AB0 /* Barista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		280514B91D6CF14B0080431B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		280514C01D6CF2440080431B /* EspressoMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoMachine.h; sourceTree = "<group>"; };
 		280514C11D6CF2440080431B /* EspressoMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoMachine.m; sourceTree = "<group>"; };
+		28D2E7501D6D2501008C6AB0 /* EspressoMachineDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspressoMachineDelegate.h; sourceTree = "<group>"; };
+		28D2E7511D6D3C83008C6AB0 /* Barista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barista.h; sourceTree = "<group>"; };
+		28D2E7521D6D3C83008C6AB0 /* Barista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +66,10 @@
 			children = (
 				280514B91D6CF14B0080431B /* main.m */,
 				280514C01D6CF2440080431B /* EspressoMachine.h */,
+				28D2E7501D6D2501008C6AB0 /* EspressoMachineDelegate.h */,
 				280514C11D6CF2440080431B /* EspressoMachine.m */,
+				28D2E7511D6D3C83008C6AB0 /* Barista.h */,
+				28D2E7521D6D3C83008C6AB0 /* Barista.m */,
 			);
 			path = smallCoffeeShop;
 			sourceTree = "<group>";
@@ -125,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				280514BA1D6CF14B0080431B /* main.m in Sources */,
+				28D2E7531D6D3C83008C6AB0 /* Barista.m in Sources */,
 				280514C21D6CF2440080431B /* EspressoMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +260,7 @@
 				280514BF1D6CF14B0080431B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
