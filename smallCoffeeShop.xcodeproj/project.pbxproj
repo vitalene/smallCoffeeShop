@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		280514BA1D6CF14B0080431B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280514B91D6CF14B0080431B /* main.m */; };
+		280514C21D6CF2440080431B /* EspressoMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 280514C11D6CF2440080431B /* EspressoMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		280514B61D6CF14B0080431B /* smallCoffeeShop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = smallCoffeeShop; sourceTree = BUILT_PRODUCTS_DIR; };
 		280514B91D6CF14B0080431B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		280514C01D6CF2440080431B /* EspressoMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoMachine.h; sourceTree = "<group>"; };
+		280514C11D6CF2440080431B /* EspressoMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				280514B91D6CF14B0080431B /* main.m */,
+				280514C01D6CF2440080431B /* EspressoMachine.h */,
+				280514C11D6CF2440080431B /* EspressoMachine.m */,
 			);
 			path = smallCoffeeShop;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				280514BA1D6CF14B0080431B /* main.m in Sources */,
+				280514C21D6CF2440080431B /* EspressoMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
