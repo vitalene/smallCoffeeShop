@@ -3,16 +3,10 @@
 
 #import <Foundation/Foundation.h>
 #import "EspressoMachine.h"
-@interface Barista : NSObject
+@interface Barista : NSObject <EspressoMachineDelegate>
 
 
--(BOOL)makeEspresso:(Barista *)make;
 
--(BOOL)heatWater:(Barista *)heat;
-
--(BOOL)addBeans:(Barista *)addB;
-
--(BOOL)addWater:(Barista *)addW;
 
 
 @end

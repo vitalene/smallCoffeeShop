@@ -5,4 +5,9 @@
 
 @implementation Barista
 
+- (void)espressoMachineWaterHasBecomeHot:(EspressoMachine *)espressoMachine;
+
+
+
 @end
+

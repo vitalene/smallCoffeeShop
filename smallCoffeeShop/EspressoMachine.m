@@ -3,14 +3,8 @@
 
 
 #import "EspressoMachine.h"
-#import "EspressoMachineDelegate.h"
 
 @implementation EspressoMachine
-
-
-- (instancetype)init {
-    return [self initWithBeans:_hasBeans waterIsHot:_waterIsHot hasWater:_hasWater];
-}
 
 -(instancetype)initWithBeans:(bool)hasBeans
                     hotWater:(bool)waterIsHot
@@ -27,6 +21,25 @@
 }
 
 - (void)espressoMachineWaterHasBecomeHot:(EspressoMachine *)espressoMachine;
+
+
+-(void)makeEspresso:(EspressoMachine *)make {
+    NSLog(@"Your espresso is made.");
+    
+}
+-(BOOL)heatWater:(EspressoMachine *)heat {
+    _waterIsHot=YES;
+    return _waterIsHot;
+}
+-(BOOL)addBeans:(EspressoMachine *)addB {
+    _hasBeans=YES;
+    return _hasBeans;
+}
+-(BOOL)addWater:(EspressoMachine *)addW {
+    _hasWater = YES;
+    return _hasWater;
+}
+
 
 
 @end

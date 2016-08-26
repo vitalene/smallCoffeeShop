@@ -29,7 +29,6 @@
 		280514B91D6CF14B0080431B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		280514C01D6CF2440080431B /* EspressoMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EspressoMachine.h; sourceTree = "<group>"; };
 		280514C11D6CF2440080431B /* EspressoMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EspressoMachine.m; sourceTree = "<group>"; };
-		28D2E7501D6D2501008C6AB0 /* EspressoMachineDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspressoMachineDelegate.h; sourceTree = "<group>"; };
 		28D2E7511D6D3C83008C6AB0 /* Barista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barista.h; sourceTree = "<group>"; };
 		28D2E7521D6D3C83008C6AB0 /* Barista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,7 +65,6 @@
 			children = (
 				280514B91D6CF14B0080431B /* main.m */,
 				280514C01D6CF2440080431B /* EspressoMachine.h */,
-				28D2E7501D6D2501008C6AB0 /* EspressoMachineDelegate.h */,
 				280514C11D6CF2440080431B /* EspressoMachine.m */,
 				28D2E7511D6D3C83008C6AB0 /* Barista.h */,
 				28D2E7521D6D3C83008C6AB0 /* Barista.m */,
