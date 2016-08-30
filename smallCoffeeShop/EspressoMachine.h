@@ -3,7 +3,6 @@
 
 
 #import <Foundation/Foundation.h>
-#import "Barista.h"
 
 @protocol EspressoMachineDelegate;
 
@@ -20,15 +19,14 @@
 -(BOOL)heatWater:(EspressoMachine *)heat;
 -(BOOL)addBeans:(EspressoMachine *)addB;
 -(BOOL)addWater:(EspressoMachine *)addW;
-
 -(instancetype)initWithBeans:(bool)hasBeans
                     hotWater:(bool)waterIsHot
-                       water:(bool)hasWater NS_DESIGNATED_INITIALIZER;
+                       water:(bool)hasWater ;
 @end
 
 @protocol EspressoMachineDelegate <NSObject>
-- (void)espressoMachineWaterHasBecomeHot:(EspressoMachine *)espressoMachine;
-@optional
 - (void)espressoMachineDidFinishMakingEspresso:(EspressoMachine *)espressoMachine;
-- (void)espressoMachineDidFinishMakingEspresso;
+@optional
+- (void)espressoMachineWaterHasBecomeHot:(EspressoMachine *)espressoMachine;
+
 @end
